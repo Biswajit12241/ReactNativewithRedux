@@ -6,12 +6,11 @@ import MyStore from './src/redux/MyStore'
 
 const App = () => {
   return (
-    <Provider store={MyStore}>
-
-    
+    <Provider store={MyStore}>  
    <AppNavigator/>
    </Provider>
   )
 }
+
 
 export default App
